@@ -3,7 +3,7 @@ program ex1_5
   integer :: a, b, ans
 
   a=1
-  b=1
+  b=2
 
   ans = a+b
 
