@@ -17,7 +17,7 @@ program enshu_2
       area(i)=f(i)*dx
       ca_result=ca_result+area(i)
     enddo
-    if (fabs(ca_result-an_result/an_result)<=eps) then
+    if ( abs(ca_result-an_result/an_result)<=eps) then
       exit
     endif
     enddo
