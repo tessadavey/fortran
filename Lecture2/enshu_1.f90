@@ -2,7 +2,7 @@ program enshu_1
   implicit none
   integer i
   real ca_result=0.0
-  integer n=100
+  integer n = 100
   real area(n), f(n)
   real a=100.0
   real dx=a/n
