@@ -2,7 +2,7 @@ program enshu_2
   implicit none
   integer N
   integer i,j
-  integer N_j=1000
+  integer,parameter N_j=1000
   real area(N*N_j),f(N*N_j)
   real dx, ca_result
   real,parameter a=100.0
@@ -19,5 +19,6 @@ program enshu_2
     enddo
     if (fabs(ca_result-an_result/an_result)<=eps) then
       exit
+    endif
     enddo
   end program enshu_2
