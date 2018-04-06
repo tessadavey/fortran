@@ -10,6 +10,6 @@ program enshu_1
     f(i) = a**2 - (dx*i)**2
     area(i) = f(i)*dx
     ca_result = ca_result+area(i)
-  enddo
+  end do
   stop
 end program enshu_1
