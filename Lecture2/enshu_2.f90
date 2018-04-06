@@ -19,7 +19,7 @@ program enshu_2
     enddo
     if ( abs(ca_result-an_result/an_result)<=eps) then
       exit
-    !endif
+    endif
     enddo
     print *, ca_result
   end program enshu_2
