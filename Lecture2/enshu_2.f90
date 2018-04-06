@@ -5,8 +5,8 @@ program enshu_2
   integer N_j=1000
   real area(N*N_j),f(N*N_j)
   real dx, ca_result
-  real a=100.0
-  real eps=0.00001 ! Error value
+  real,parameter a=100.0
+  real,parameter eps=0.00001 ! Error value
   an_result=a*a-(1./3.)*a**3.0
   do j=1,1000
     N=100*j
