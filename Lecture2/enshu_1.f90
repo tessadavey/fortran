@@ -1,7 +1,7 @@
 program enshu_1
   implicit none
   integer i
-  real cal_result=0.0
+  real ca_result=0.0
   integer N=100
   real area(N), f(N)
   real a=100.0
