@@ -1,7 +1,7 @@
 program enshu_1
   implicit none
   integer i
-  real ca_result = 0.0
+  real result = 0.0
   integer N = 100
   real area(N), f(N)
   real a = 100.0
@@ -9,6 +9,6 @@ program enshu_1
   do i = 1, 100
     f(i) = a**2 - (dx*i)**2
     area(i) = f(i)*dx
-    ca_result = ca_result+area(i)
+    result = result+area(i)
   end do
 end program enshu_1
