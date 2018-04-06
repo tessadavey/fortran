@@ -1,5 +1,5 @@
 program enshu_1
-  implicit none
+
   integer i
   real ca_result = 0.0
   integer n = 100
