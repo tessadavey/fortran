@@ -11,4 +11,5 @@ program enshu_1
     area(i)=f(i)*dx
     ca_result=ca_result+area(i)
   enddo
+  stop
 end program enshu_1
