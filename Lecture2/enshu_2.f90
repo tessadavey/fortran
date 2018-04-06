@@ -7,7 +7,7 @@ program enshu_2
   real dx, ca_result
   real,parameter :: a=100.0
   real,parameter :: eps=0.00001 ! Error value
-  real an_result=a*a-(1./3.)*a**3.0
+  real,parameter :: an_result=a*a-(1./3.)*a**3.0
   do j=1,1000
     N=100*j
     dx=a/N
