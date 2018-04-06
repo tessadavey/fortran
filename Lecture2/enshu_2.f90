@@ -21,4 +21,5 @@ program enshu_2
       exit
     endif
     enddo
+    print *, ca_result
   end program enshu_2
