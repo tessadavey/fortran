@@ -3,7 +3,7 @@ program enshu_2
   integer N
   integer i,j
   integer,parameter :: N_j=1000
-  real area(N*N_j),f(N*N_j)
+  real area(N_j),f(N_j)
   real dx, ca_result
   real,parameter :: a=100.0
   real,parameter :: eps=0.00001 ! Error value
